@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .couple{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: black;
+        }
+        .couple img{
+            width: 80%;
+        }
+        @media screen and (max-width: 576px) {
+            .couple{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+            .couple img{
+                width: 100%;
+            }
+        }
+        @media screen and (min-width:577px) and (max-width: 992px) {
+            .couple{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                background-color: aqua;
+            }
+            .couple img{
+                width: 90%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="couple">
+        <img src="images/romantic-pic.jpeg" alt="">
+    </div>
+</body>
+</html>
